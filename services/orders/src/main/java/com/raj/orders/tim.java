@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class tim {
     @GetMapping("/")
     public String getMethodName() {
-        return new String("Hi I am from Orders");
+        return new String("Hi I am from Orders MS");
     }
     @GetMapping("/placeOrder")
     public String placingOrder(@RequestParam String param, @RequestParam String port) {
